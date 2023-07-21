@@ -1,0 +1,1 @@
+Example on how to set a python file to execute another script while reading a csv

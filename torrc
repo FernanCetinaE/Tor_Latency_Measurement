@@ -1,0 +1,13 @@
+ControlPort 9051
+CookieAuthentication 1
+SocksPort 9050
+RunAsDaemon 1
+ORPort 9001
+Nickname ndNode1
+ContactInfo ndNode1Test
+DirPort 9030
+ExitPolicy reject *:*
+HashedControlPassword your_hash
+#sudo docker build -t vm_tor .
+#sudo docker run --network host -it vm_tor /bin/bash
+#tor --hash-password fcetina
